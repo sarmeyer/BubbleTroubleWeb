@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     </head>
-    <body>
+    <body class='main'>
         <h1 class='title'>
             <i>Welcome to Bubble Trouble</i>
         </h1>
@@ -23,6 +23,16 @@
                 </ul>
             </div>
         </nav>
+        <div class="bubbles">
+          <img class='one' style="width:10em;height:10em;" src="bubble" alt="" />
+          <img class='two' style="width:20em;height:20em;" src="bubble" alt="" />
+          <img class='three' style="width:15em;height:15em;" src="bubble" alt="" />
+          <img class='four' style="width:12em;height:12em;" src="bubble" alt="" />
+          <img class='five' style="width:25em;height:25em;" src="bubble" alt="" />
+          <img class='six' style="width:13em;height:13em;" src="bubble" alt="" />
+          <img class='seven' style="width:12em;height:12em;" src="bubble" alt="" />
+        </div>
+
 
         <div ng-view></div>
 
@@ -30,5 +40,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
         <script type="text/javascript" src='/scripts/app.js'></script>
+        <script type="text/javascript" src='/scripts/script.js'></script>
+
     </body>
 </html>
