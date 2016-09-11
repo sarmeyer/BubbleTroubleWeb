@@ -1,15 +1,47 @@
 .main {
     background: #FF97E2;
 }
+@font-face {
+    font-family: BubbleRas;
+    src: url(BubbleRas.ttf);
+}
+h1 {
+    font-family: BubbleRas !important;
+    font-size: 10em !important;
+    color: #5143FD !important;
+    text-align: center;
+    top: -5%;
+}
+.play {
+    position: absolute;
+    left: 24%;
+    top: 35%;
+    font-size: 16em;
+    z-index: 1;
+    color: #5143FD !important;
+    font-family: BubbleRas;
+}
+.about {
+    position: absolute;
+    left: 56%;
+    top: 65%;
+    width: 150px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 8em;
+    color: #5143FD !important;
+    font-family: BubbleRas;
+    z-index: 1;
+}
 .one {
     position: absolute;
-    left: 25%;
+    left: 65%;
     top: 25%;
 }
 .two {
     position: absolute;
-    left: 35%;
-    top: 55%;
+    left: 15%;
+    top: 25%;
 }
 .three {
     position: absolute;
@@ -18,8 +50,8 @@
 }
 .four {
     position: absolute;
-    left: 15%;
-    top: 65%;
+    left: 8%;
+    top: 75%;
 }
 .five {
     position: absolute;
@@ -28,8 +60,8 @@
 }
 .six {
     position: absolute;
-    left: 65%;
-    top: 12%;
+    left: 50%;
+    top: 53%;
 }
 .seven {
     position: absolute;
