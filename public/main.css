@@ -3,7 +3,7 @@
 }
 @font-face {
     font-family: bubblesoap;
-    src: url(/bubblesoap.ttf);
+    src: url(Assets/bubblesoap.ttf);
 }
 h1 {
     font-family: bubblesoap !important;
@@ -24,6 +24,7 @@ h1 {
     color: #5143FD !important;
     font-family: bubblesoap;
     text-decoration: none !important;
+    font-weight: bold;
 }
 .links {
     height: 0vh;
@@ -108,16 +109,30 @@ a:hover {
     align-items: center;
     position: absolute;
     width: 70vw;
-    height: 60vh;
+    height: 70vh;
     margin-top: 12%;
     left: 15%;
 }
 .gameSection, .creatorSection {
     position: relative;
     width: 28vw;
-    height: 50vh;
+    height: 60vh;
+    display: flex;
+    align-items: center;
     background: linear-gradient(to bottom right, #DCCDF2, rgba(57, 222, 230, 0.7));
     z-index: 2;
     border-style: outset;
     border-radius: 25px;
+    font-size: 2vw;
+    color: #5143FD !important;
+    font-family: 'Chewy', cursive;
+    text-align: center;
+}
+.creatorText a {
+    font-family: 'Pacifico', cursive;
+    color: #5143FD !important;
+    text-decoration: none;
+}
+.creatorText a:hover {
+    color: #150B96 !important;
 }

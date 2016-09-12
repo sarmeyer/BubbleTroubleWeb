@@ -1,0 +1,13 @@
+{
+  "name": "bubble_trouble",
+  "author": "DS",
+  "description": "Web version bubble trouble",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+ "engines": {
+      "node": "0.8.14"
+  }
+}
