@@ -13,7 +13,7 @@ h1 {
     top: -5%;
 }
 .links a {
-    position: absolute;
+    position: relative;
     z-index: 1;
     color: #5143FD !important;
     font-family: bubblesoap;
@@ -52,12 +52,13 @@ a:hover {
     font-size: 4.3vw;
 }
 .aboutTitle {
-    margin-top: -5%;
+    position: relative;
+    font-size: 5vw !important;
+    margin: min(150px);
 }
 .back {
-    font-size: 8vw;
-    top: 21%;
-    left: 2%;
+    font-size: 5vw;
+    left: 1%;
 }
 .bubbles {
     height: 100vh;
@@ -86,7 +87,7 @@ a:hover {
 .five {
     position: absolute;
     left: -5%;
-    top: 10%;
+    top: 13%;
 }
 .six {
     position: absolute;
