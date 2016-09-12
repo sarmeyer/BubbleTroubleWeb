@@ -7,28 +7,31 @@
 }
 h1 {
     font-family: bubblesoap !important;
-    font-size: 7em !important;
+    font-size: 7vw !important;
     color: #5143FD !important;
     text-align: center;
     top: -5%;
 }
-a {
+.links a {
     position: absolute;
     z-index: 1;
     color: #5143FD !important;
     font-family: bubblesoap;
+    text-decoration: none !important;
 }
-a:hover {}
+a:hover {
+    color: #150B96 !important;
+}
 .aboutGame {
     position: absolute;
     width: 45vw;
-    height: 14vh;
+    height: 14%;
     background: linear-gradient(rgba(57, 222, 230, 0.7), #DCCDF2);
     left: 28%;
     top: 18%;
     border-style: outset;
     border-radius: 25px;
-    font-size: 3em;
+    font-size: 3vw;
     font-family: bubblesoap;
     line-height: 1em;
     text-align: center;
@@ -38,7 +41,7 @@ a:hover {}
 .play {
     left: 22%;
     top: 46%;
-    font-size: 9em;
+    font-size: 9vw;
 }
 .about {
     left: 56%;
@@ -46,15 +49,19 @@ a:hover {}
     width: 150px;
     text-align: center;
     line-height: 55px;
-    font-size: 4.3em;
+    font-size: 4.3vw;
 }
 .aboutTitle {
     margin-top: -5%;
 }
 .back {
-    font-size: 8em;
+    font-size: 8vw;
     top: 21%;
     left: 2%;
+}
+.bubbles {
+    height: 100vh;
+    width: 100vw;
 }
 .one {
     position: absolute;
