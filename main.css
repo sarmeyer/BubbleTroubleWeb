@@ -23,7 +23,7 @@ a:hover {
     color: #150B96 !important;
 }
 .aboutGame {
-    position: absolute;
+    /*position: absolute;
     width: 45vw;
     height: 14%;
     background: linear-gradient(rgba(57, 222, 230, 0.7), #DCCDF2);
@@ -36,7 +36,7 @@ a:hover {
     line-height: 1em;
     text-align: center;
     padding: .3em;
-    color: #5143FD !important;
+    color: #5143FD !important;*/
 }
 .play {
     z-index: 2;
@@ -49,19 +49,26 @@ a:hover {
     height: 40vw;
     width: 40vw;
     left: 15%;
-    margin-top: 15vh;
+    margin-top: 12vh;
     position: relative;
 }
-.playBubble {
+.playBubble, .aboutBubble {
     position: absolute;
 }
+.aboutButton {
+    height: 25vw;
+    width: 15vw;
+    position: relative;
+    left: 48%;
+    margin-top: -25%;
+}
 .about {
-    left: 56%;
-    top: 65%;
-    width: 150px;
-    text-align: center;
-    line-height: 55px;
+    position: absolute;
     font-size: 4.3vw;
+    text-align: center;
+    top: 28%;
+    line-height: 4vw;
+    left: 38%;
 }
 .aboutTitle {
     position: relative;
@@ -121,6 +128,8 @@ a:hover {
 
 }
 ;
+
+}
 
 }
 
