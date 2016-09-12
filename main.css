@@ -18,6 +18,22 @@ a {
     color: #5143FD !important;
     font-family: BubbleRas;
 }
+.aboutGame {
+    position: absolute;
+    width: 35vw;
+    height: 12vh;
+    background: linear-gradient(rgba(57, 222, 230, 0.7), #DCCDF2);
+    left: 33%;
+    top: 20%;
+    border-style: outset;
+    border-radius: 25px;
+    font-size: 4em;
+    font-family: BubbleRas;
+    line-height: .5em;
+    text-align: center;
+    padding: .3em;
+    color: #5143FD !important;
+}
 .play {
     left: 24%;
     top: 35%;
@@ -73,6 +89,18 @@ a {
     position: absolute;
     left: 70%;
     top: 80%;
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
 }
 
 }
