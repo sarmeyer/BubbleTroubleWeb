@@ -7,28 +7,31 @@
 }
 h1 {
     font-family: bubblesoap !important;
-    font-size: 7em !important;
+    font-size: 7vw !important;
     color: #5143FD !important;
     text-align: center;
     top: -5%;
 }
-a {
+.links a {
     position: absolute;
     z-index: 1;
     color: #5143FD !important;
     font-family: bubblesoap;
+    text-decoration: none !important;
 }
-a:hover {}
+a:hover {
+    color: #150B96 !important;
+}
 .aboutGame {
     position: absolute;
     width: 45vw;
-    height: 14vh;
+    height: 14%;
     background: linear-gradient(rgba(57, 222, 230, 0.7), #DCCDF2);
     left: 28%;
     top: 18%;
     border-style: outset;
     border-radius: 25px;
-    font-size: 3em;
+    font-size: 3vw;
     font-family: bubblesoap;
     line-height: 1em;
     text-align: center;
@@ -36,9 +39,21 @@ a:hover {}
     color: #5143FD !important;
 }
 .play {
-    left: 22%;
-    top: 46%;
-    font-size: 9em;
+    z-index: 2;
+    top: 32%;
+    left: 18%;
+    font-size: 9vw;
+    position: absolute;
+}
+.playButton {
+    height: 40vw;
+    width: 40vw;
+    left: 15%;
+    margin-top: 15vh;
+    position: relative;
+}
+.playBubble {
+    position: absolute;
 }
 .about {
     left: 56%;
@@ -46,15 +61,20 @@ a:hover {}
     width: 150px;
     text-align: center;
     line-height: 55px;
-    font-size: 4.3em;
+    font-size: 4.3vw;
 }
 .aboutTitle {
-    margin-top: -5%;
+    position: relative;
+    font-size: 5vw !important;
+    margin: min(150px);
 }
 .back {
-    font-size: 8em;
-    top: 21%;
-    left: 2%;
+    font-size: 5vw;
+    left: 1%;
+}
+.bubbles {
+    height: 100vh;
+    width: 100vw;
 }
 .one {
     position: absolute;
@@ -64,7 +84,7 @@ a:hover {}
 .two {
     position: absolute;
     left: 15%;
-    top: 25%;
+    top: 33vh;
 }
 .three {
     position: absolute;
@@ -79,7 +99,7 @@ a:hover {}
 .five {
     position: absolute;
     left: -5%;
-    top: 10%;
+    top: 13%;
 }
 .six {
     position: absolute;
@@ -90,4 +110,18 @@ a:hover {}
     position: absolute;
     left: 70%;
     top: 80%;
+}
+
+}
+;
+
+}
+
+}
+
+}
+;
+
+}
+
 }
