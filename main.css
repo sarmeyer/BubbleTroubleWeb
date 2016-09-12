@@ -3,7 +3,7 @@
 }
 @font-face {
     font-family: bubblesoap;
-    src: url(/bubblesoap.ttf);
+    src: url(Assets/bubblesoap.ttf);
 }
 h1 {
     font-family: bubblesoap !important;
