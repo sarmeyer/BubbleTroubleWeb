@@ -5,8 +5,10 @@
     <script src="TemplateData/UnityProgress.js"></script>
   </head>
   <body class="template">
-    <a id="back-link" href="#/home">Back</a>
-    <img src="Assets/bubble_thumb.png" alt="" />
+    <div class="back-button">
+      <a id="back-link" href="#/">Back</a>
+      <img id="back-bubble" src="Assets/bubble_thumb.png" alt="" />
+    </div>
     <p class="header"><span>Unity WebGL Player | </span>Bubble Trouble</p>
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
