@@ -13,7 +13,7 @@ h1 {
     top: -5%;
 }
 .links a {
-    position: relative;
+    position: absolute;
     z-index: 1;
     color: #5143FD !important;
     font-family: bubblesoap;
@@ -39,9 +39,21 @@ a:hover {
     color: #5143FD !important;
 }
 .play {
-    left: 22%;
-    top: 46%;
+    z-index: 2;
+    top: 32%;
+    left: 18%;
     font-size: 9vw;
+    position: absolute;
+}
+.playButton {
+    height: 40vw;
+    width: 40vw;
+    left: 15%;
+    margin-top: 15vh;
+    position: relative;
+}
+.playBubble {
+    position: absolute;
 }
 .about {
     left: 56%;
@@ -72,7 +84,7 @@ a:hover {
 .two {
     position: absolute;
     left: 15%;
-    top: 25%;
+    top: 33vh;
 }
 .three {
     position: absolute;
@@ -98,4 +110,18 @@ a:hover {
     position: absolute;
     left: 70%;
     top: 80%;
+}
+
+}
+;
+
+}
+
+}
+
+}
+;
+
+}
+
 }
