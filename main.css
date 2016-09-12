@@ -12,26 +12,32 @@ h1 {
     text-align: center;
     top: -5%;
 }
-.play {
+a {
     position: absolute;
-    left: 24%;
-    top: 35%;
-    font-size: 16em;
     z-index: 1;
     color: #5143FD !important;
     font-family: BubbleRas;
 }
+.play {
+    left: 24%;
+    top: 35%;
+    font-size: 16em;
+}
 .about {
-    position: absolute;
     left: 56%;
     top: 65%;
     width: 150px;
     text-align: center;
     line-height: 45px;
     font-size: 8em;
-    color: #5143FD !important;
-    font-family: BubbleRas;
-    z-index: 1;
+}
+.aboutTitle {
+    margin-top: -5%;
+}
+.back {
+    font-size: 8em;
+    top: 21%;
+    left: 2%;
 }
 .one {
     position: absolute;
@@ -67,4 +73,10 @@ h1 {
     position: absolute;
     left: 70%;
     top: 80%;
+}
+
+}
+
+}
+
 }
