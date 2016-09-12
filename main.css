@@ -7,10 +7,16 @@
 }
 h1 {
     font-family: bubblesoap !important;
-    font-size: 7vw !important;
+    font-size: 7vw;
     color: #5143FD !important;
     text-align: center;
     top: -5%;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 5vw !important;
+        word-wrap: normal;
+    }
 }
 .links a {
     position: absolute;
@@ -19,23 +25,27 @@ h1 {
     font-family: bubblesoap;
     text-decoration: none !important;
 }
+.links {
+    height: 0vh;
+}
 a:hover {
     color: #150B96 !important;
 }
 .aboutGame {
-    position: absolute;
+    position: relative;
     width: 45vw;
     height: 14%;
     background: linear-gradient(rgba(57, 222, 230, 0.7), #DCCDF2);
-    left: 28%;
-    top: 18%;
+    left: 26%;
     border-style: outset;
     border-radius: 25px;
+    padding: .3em;
+}
+.aboutText {
     font-size: 3vw;
     font-family: bubblesoap;
     line-height: 1em;
     text-align: center;
-    padding: .3em;
     color: #5143FD !important;
 }
 .play {
@@ -49,79 +59,63 @@ a:hover {
     height: 40vw;
     width: 40vw;
     left: 15%;
-    margin-top: 15vh;
+    margin-top: -3%;
     position: relative;
 }
-.playBubble {
+.playBubble, .aboutBubble, .backBubble {
     position: absolute;
 }
+.aboutButton {
+    height: 25vw;
+    width: 15vw;
+    position: relative;
+    left: 48%;
+    margin-top: -26%;
+}
 .about {
-    left: 56%;
-    top: 65%;
-    width: 150px;
-    text-align: center;
-    line-height: 55px;
+    position: absolute;
     font-size: 4.3vw;
+    text-align: center;
+    top: 28%;
+    line-height: 4vw;
+    left: 38%;
+}
+.backButton {
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    margin-top: -7%;
+    left: 2%;
+}
+.back {
+    font-size: 5vw;
+    left: 15%;
+    top: 23%;
+    font-size: 4vw;
 }
 .aboutTitle {
     position: relative;
     font-size: 5vw !important;
     margin: min(150px);
 }
-.back {
-    font-size: 5vw;
-    left: 1%;
-}
-.bubbles {
-    height: 100vh;
-    width: 100vw;
-}
-.one {
+.aboutSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     position: absolute;
-    left: 65%;
-    top: 25%;
-}
-.two {
-    position: absolute;
+    border: 2px red solid;
+    width: 70vw;
+    height: 60vh;
+    margin-top: 15%;
     left: 15%;
-    top: 33vh;
 }
-.three {
-    position: absolute;
-    left: 75%;
-    top: 45%;
-}
-.four {
-    position: absolute;
-    left: 8%;
-    top: 75%;
-}
-.five {
-    position: absolute;
-    left: -5%;
-    top: 13%;
-}
-.six {
-    position: absolute;
-    left: 50%;
-    top: 53%;
-}
-.seven {
-    position: absolute;
-    left: 70%;
-    top: 80%;
-}
-
-}
-;
-
-}
-
-}
-
-}
-;
-
-}
-
+.gameSection, .creatorSection {
+    position: relative;
+    width: 28vw;
+    height: 50vh;
+    background: linear-gradient(rgba(57, 222, 230, 0.7), #DCCDF2);
+    z-index: 2;
+    border-style: outset;
+    border-radius: 25px;
 }
