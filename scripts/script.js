@@ -8,6 +8,7 @@ $(document).ready(function(){
         'height':imgsize+'em',
     })
     $newimg.attr('src', '/bubble');
+    $newimg.attr('class', 'appearing');
     // make position sensitive to size and document's width
     var posx = (Math.random() * ($(document).width() - imgsize)).toFixed();
     var posy = (Math.random() * ($(document).height() - imgsize)).toFixed();
@@ -30,6 +31,7 @@ $(document).ready(function(){
         'height':imgsize2+'em',
     })
     $newimg2.attr('src', '/bubble');
+    $newimg2.attr('class', 'appearing');
     // make position sensitive to size and document's width
     var posx = (Math.random() * ($(document).width() - imgsize2)).toFixed();
     var posy = (Math.random() * ($(document).height() - imgsize2)).toFixed();
